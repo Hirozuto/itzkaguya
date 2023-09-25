@@ -2,67 +2,47 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'Hirozuto', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 20, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
+    linkedin: '',
+    twitter: 'ItzKaguya',
+    mastodon: '',
+    facebook: 'ItzKaguya',
+    instagram: 'hrzthx_',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'ItzKaguya',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
+    telegram: 'ItzKaguya',
+    website: 'https://itzkaguya.my.id',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'hirakinakamura@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kotlin',
+    'C++',
+    'Makefile',
+    'Bash',
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
   ],
   /* certifications: [
     {
@@ -73,41 +53,15 @@ const config = {
     },
   ], */
   education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'ItzKaguya', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -180,10 +134,10 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/Hirozuto"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >ItzKaguya</a> and ❤️`,
 };
 
 export default config;
